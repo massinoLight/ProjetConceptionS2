@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3tK-kJDREeuN874R7QIlVw" name="ProjetConception">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_3y8PYJDREeuN874R7QIlVw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_3vZMIJDREeuN874R7QIlVw" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_3v0C4JDREeuN874R7QIlVw" name="Activity2"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6bMrEJDREeuN874R7QIlVw" name="Medecin/Core médical"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HzHucJDSEeuN874R7QIlVw" name="Patient"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_mCEZUJDSEeuN874R7QIlVw" name="Systéme">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rv9JMJDSEeuN874R7QIlVw" name="Suivit du patient">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XoWsUJDTEeuN874R7QIlVw" general="_HG5FIJDTEeuN874R7QIlVw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_YdNQsJDTEeuN874R7QIlVw" general="_NmovwJDTEeuN874R7QIlVw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZFgm0JDTEeuN874R7QIlVw" general="_TEDasJDTEeuN874R7QIlVw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_w84hEJDSEeuN874R7QIlVw" name="Acces au récapitulatif">
+      <generalization xmi:type="uml:Generalization" xmi:id="_pKFdsJDTEeuN874R7QIlVw" general="_bOqEoJDTEeuN874R7QIlVw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_p6iDMJDTEeuN874R7QIlVw" general="_iLhwIJDTEeuN874R7QIlVw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3q_X0JDSEeuN874R7QIlVw" name="Emettre une alérte ">
+      <generalization xmi:type="uml:Generalization" xmi:id="_zn8jsJDTEeuN874R7QIlVw" general="_sC3BoJDTEeuN874R7QIlVw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_0I1qQJDTEeuN874R7QIlVw" general="_wrW2wJDTEeuN874R7QIlVw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-9jmgJDSEeuN874R7QIlVw" name="Prise de RDV">
+      <extend xmi:type="uml:Extend" xmi:id="_9VzJEJDTEeuN874R7QIlVw" extendedCase="_3OzVoJDTEeuN874R7QIlVw" extensionLocation="_9V0-QJDTEeuN874R7QIlVw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HG5FIJDTEeuN874R7QIlVw" name="Suivit du rythme cardiaque"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NmovwJDTEeuN874R7QIlVw" name="Taux de glycemie dans le sang"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TEDasJDTEeuN874R7QIlVw" name="Taux d'alcool dans le sng"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bOqEoJDTEeuN874R7QIlVw" name="Quotidien"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iLhwIJDTEeuN874R7QIlVw" name="Hebdomadaire"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sC3BoJDTEeuN874R7QIlVw" name="Urgente "/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wrW2wJDTEeuN874R7QIlVw" name="Fréquente"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3OzVoJDTEeuN874R7QIlVw" name="Voir calendrier">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9V0-QJDTEeuN874R7QIlVw" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CaAfQJDTEeuN874R7QIlVw" memberEnd="_CaDikJDTEeuN874R7QIlVw _CaFXwJDTEeuN874R7QIlVw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CaCUcJDTEeuN874R7QIlVw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CaCUcZDTEeuN874R7QIlVw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CaDikJDTEeuN874R7QIlVw" name="suivit du patient" type="_rv9JMJDSEeuN874R7QIlVw" association="_CaAfQJDTEeuN874R7QIlVw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CaFXwJDTEeuN874R7QIlVw" name="medecin/core médical" type="_6bMrEJDREeuN874R7QIlVw" association="_CaAfQJDTEeuN874R7QIlVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DOM8UJDTEeuN874R7QIlVw" memberEnd="_DOOxgZDTEeuN874R7QIlVw _DOPYkJDTEeuN874R7QIlVw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DOOKcJDTEeuN874R7QIlVw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DOOxgJDTEeuN874R7QIlVw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DOOxgZDTEeuN874R7QIlVw" name="prise de rdv" type="_-9jmgJDSEeuN874R7QIlVw" association="_DOM8UJDTEeuN874R7QIlVw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DOPYkJDTEeuN874R7QIlVw" name="patient" type="_HzHucJDSEeuN874R7QIlVw" association="_DOM8UJDTEeuN874R7QIlVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EAi_QJDTEeuN874R7QIlVw" memberEnd="_EAjmUpDTEeuN874R7QIlVw _EAjmU5DTEeuN874R7QIlVw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EAjmUJDTEeuN874R7QIlVw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EAjmUZDTEeuN874R7QIlVw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EAjmUpDTEeuN874R7QIlVw" name="emettre une alérte " type="_3q_X0JDSEeuN874R7QIlVw" association="_EAi_QJDTEeuN874R7QIlVw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EAjmU5DTEeuN874R7QIlVw" name="patient" type="_HzHucJDSEeuN874R7QIlVw" association="_EAi_QJDTEeuN874R7QIlVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Euts0JDTEeuN874R7QIlVw" memberEnd="_EuviAJDTEeuN874R7QIlVw _EuviAZDTEeuN874R7QIlVw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Euu68JDTEeuN874R7QIlVw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Euu68ZDTEeuN874R7QIlVw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EuviAJDTEeuN874R7QIlVw" name="acces au récapitulatif" type="_w84hEJDSEeuN874R7QIlVw" association="_Euts0JDTEeuN874R7QIlVw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EuviAZDTEeuN874R7QIlVw" name="patient" type="_HzHucJDSEeuN874R7QIlVw" association="_Euts0JDTEeuN874R7QIlVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Fd7jQJDTEeuN874R7QIlVw" memberEnd="_Fd8xYZDTEeuN874R7QIlVw _Fd9YcJDTEeuN874R7QIlVw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fd8KUJDTEeuN874R7QIlVw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fd8xYJDTEeuN874R7QIlVw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Fd8xYZDTEeuN874R7QIlVw" name="acces au récapitulatif" type="_w84hEJDSEeuN874R7QIlVw" association="_Fd7jQJDTEeuN874R7QIlVw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Fd9YcJDTEeuN874R7QIlVw" name="medecin/core médical" type="_6bMrEJDREeuN874R7QIlVw" association="_Fd7jQJDTEeuN874R7QIlVw"/>
+  </packagedElement>
+</uml:Model>
