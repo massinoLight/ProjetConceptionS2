@@ -12,27 +12,46 @@
       <generalization xmi:type="uml:Generalization" xmi:id="_XoWsUJDTEeuN874R7QIlVw" general="_HG5FIJDTEeuN874R7QIlVw"/>
       <generalization xmi:type="uml:Generalization" xmi:id="_YdNQsJDTEeuN874R7QIlVw" general="_NmovwJDTEeuN874R7QIlVw"/>
       <generalization xmi:type="uml:Generalization" xmi:id="_ZFgm0JDTEeuN874R7QIlVw" general="_TEDasJDTEeuN874R7QIlVw"/>
+      <include xmi:type="uml:Include" xmi:id="_WNDDgJGlEeu_WNdG5vTEQg" addition="_5N7BwJGkEeu_WNdG5vTEQg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_w84hEJDSEeuN874R7QIlVw" name="Acces au récapitulatif">
       <generalization xmi:type="uml:Generalization" xmi:id="_pKFdsJDTEeuN874R7QIlVw" general="_bOqEoJDTEeuN874R7QIlVw"/>
       <generalization xmi:type="uml:Generalization" xmi:id="_p6iDMJDTEeuN874R7QIlVw" general="_iLhwIJDTEeuN874R7QIlVw"/>
+      <include xmi:type="uml:Include" xmi:id="_Uf0ssJGlEeu_WNdG5vTEQg" addition="_5N7BwJGkEeu_WNdG5vTEQg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_3q_X0JDSEeuN874R7QIlVw" name="Emettre une alérte ">
       <generalization xmi:type="uml:Generalization" xmi:id="_zn8jsJDTEeuN874R7QIlVw" general="_sC3BoJDTEeuN874R7QIlVw"/>
       <generalization xmi:type="uml:Generalization" xmi:id="_0I1qQJDTEeuN874R7QIlVw" general="_wrW2wJDTEeuN874R7QIlVw"/>
+      <include xmi:type="uml:Include" xmi:id="_Zqy8wJGlEeu_WNdG5vTEQg" addition="_5N7BwJGkEeu_WNdG5vTEQg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_-9jmgJDSEeuN874R7QIlVw" name="Prise de RDV">
       <extend xmi:type="uml:Extend" xmi:id="_9VzJEJDTEeuN874R7QIlVw" extendedCase="_3OzVoJDTEeuN874R7QIlVw" extensionLocation="_9V0-QJDTEeuN874R7QIlVw"/>
+      <include xmi:type="uml:Include" xmi:id="_bfo-gJGlEeu_WNdG5vTEQg" addition="_5N7BwJGkEeu_WNdG5vTEQg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_HG5FIJDTEeuN874R7QIlVw" name="Suivit du rythme cardiaque"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_NmovwJDTEeuN874R7QIlVw" name="Taux de glycemie dans le sang"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_TEDasJDTEeuN874R7QIlVw" name="Taux d'alcool dans le sng"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_bOqEoJDTEeuN874R7QIlVw" name="Quotidien"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_iLhwIJDTEeuN874R7QIlVw" name="Hebdomadaire"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_sC3BoJDTEeuN874R7QIlVw" name="Urgente "/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_wrW2wJDTEeuN874R7QIlVw" name="Fréquente"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sC3BoJDTEeuN874R7QIlVw" name="Urgente ">
+      <extend xmi:type="uml:Extend" xmi:id="_1_rusJGlEeu_WNdG5vTEQg" extendedCase="_yTMO0JGlEeu_WNdG5vTEQg" extensionLocation="_1_s80JGlEeu_WNdG5vTEQg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wrW2wJDTEeuN874R7QIlVw" name="Fréquente">
+      <extend xmi:type="uml:Extend" xmi:id="_3ZsOkJGlEeu_WNdG5vTEQg" extendedCase="_lh9_EJGlEeu_WNdG5vTEQg" extensionLocation="_3Zs1oJGlEeu_WNdG5vTEQg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_3OzVoJDTEeuN874R7QIlVw" name="Voir calendrier">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9V0-QJDTEeuN874R7QIlVw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5N7BwJGkEeu_WNdG5vTEQg" name="S'authentifier"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dGFX4JGlEeu_WNdG5vTEQg" name="Détecter une alerte">
+      <generalization xmi:type="uml:Generalization" xmi:id="_txGjsJGlEeu_WNdG5vTEQg" general="_sC3BoJDTEeuN874R7QIlVw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_xCv6oJGlEeu_WNdG5vTEQg" general="_wrW2wJDTEeuN874R7QIlVw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lh9_EJGlEeu_WNdG5vTEQg" name="Prevenir le médecin">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_3Zs1oJGlEeu_WNdG5vTEQg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yTMO0JGlEeu_WNdG5vTEQg" name="Prévenir SAMU">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_1_s80JGlEeu_WNdG5vTEQg" name="ExtensionPoint1"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_CaAfQJDTEeuN874R7QIlVw" memberEnd="_CaDikJDTEeuN874R7QIlVw _CaFXwJDTEeuN874R7QIlVw">
@@ -69,5 +88,13 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Fd8xYZDTEeuN874R7QIlVw" name="acces au récapitulatif" type="_w84hEJDSEeuN874R7QIlVw" association="_Fd7jQJDTEeuN874R7QIlVw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Fd9YcJDTEeuN874R7QIlVw" name="medecin/core médical" type="_6bMrEJDREeuN874R7QIlVw" association="_Fd7jQJDTEeuN874R7QIlVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_x_zOMJGkEeu_WNdG5vTEQg" name="IA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_huiwwJGlEeu_WNdG5vTEQg" memberEnd="_hunpQJGlEeu_WNdG5vTEQg _hunpQZGlEeu_WNdG5vTEQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hul0EJGlEeu_WNdG5vTEQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hul0EZGlEeu_WNdG5vTEQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hunpQJGlEeu_WNdG5vTEQg" name="détecter une alerte" type="_dGFX4JGlEeu_WNdG5vTEQg" association="_huiwwJGlEeu_WNdG5vTEQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hunpQZGlEeu_WNdG5vTEQg" name="ia" type="_x_zOMJGkEeu_WNdG5vTEQg" association="_huiwwJGlEeu_WNdG5vTEQg"/>
   </packagedElement>
 </uml:Model>
