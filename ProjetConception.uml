@@ -337,4 +337,38 @@
     <message xmi:type="uml:Message" xmi:id="_vbnI4JPCEeuYKO9T4ANtXw" name="communiquer patient" messageSort="asynchCall" receiveEvent="_vboXAJPCEeuYKO9T4ANtXw" sendEvent="_vbnv8JPCEeuYKO9T4ANtXw"/>
     <message xmi:type="uml:Message" xmi:id="_ztUOoJPCEeuYKO9T4ANtXw" name="Communiquer patient" messageSort="asynchCall" receiveEvent="_ztWD0JPCEeuYKO9T4ANtXw" sendEvent="_ztVcwJPCEeuYKO9T4ANtXw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_DnZQQJPEEeuYKO9T4ANtXw" name="prise RDV">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_HX-l8JPEEeuYKO9T4ANtXw" name=":Patient" coveredBy="_RBKGsJPEEeuYKO9T4ANtXw _RBmLkJPEEeuYKO9T4ANtXw _bkgwsJPEEeuYKO9T4ANtXw _blJp4JPEEeuYKO9T4ANtXw _gGqGMJPEEeuYKO9T4ANtXw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_KBDhAJPEEeuYKO9T4ANtXw" name=":Interface liste des medecins" coveredBy="_RBKtwJPEEeuYKO9T4ANtXw _T57DkJPEEeuYKO9T4ANtXw _RBlkgJPEEeuYKO9T4ANtXw _bkhXwJPEEeuYKO9T4ANtXw _blJC0JPEEeuYKO9T4ANtXw _gGqtQJPEEeuYKO9T4ANtXw _j5mzYJPEEeuYKO9T4ANtXw _RBhTEJPEEeuYKO9T4ANtXw _blDjQJPEEeuYKO9T4ANtXw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_M1Z38JPEEeuYKO9T4ANtXw" name=":BD Medecin" coveredBy="_T5Xp8JPEEeuYKO9T4ANtXw _T56cgJPEEeuYKO9T4ANtXw _j5nacJPEEeuYKO9T4ANtXw _tUlgEJPEEeuYKO9T4ANtXw _tUjq4JPEEeuYKO9T4ANtXw _T5088JPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RBKGsJPEEeuYKO9T4ANtXw" name="Message4SendEvent" covered="_HX-l8JPEEeuYKO9T4ANtXw" message="_RBJfoJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RBKtwJPEEeuYKO9T4ANtXw" name="Message4ReceiveEvent" covered="_KBDhAJPEEeuYKO9T4ANtXw" message="_RBJfoJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_RBhTEJPEEeuYKO9T4ANtXw" name="BehaviorExecutionSpecification7" covered="_KBDhAJPEEeuYKO9T4ANtXw" finish="_RBlkgJPEEeuYKO9T4ANtXw" start="_RBKtwJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T5Xp8JPEEeuYKO9T4ANtXw" name="Message11ReceiveEvent" covered="_M1Z38JPEEeuYKO9T4ANtXw" message="_T5Wb0JPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_T5088JPEEeuYKO9T4ANtXw" name="BehaviorExecutionSpecification14" covered="_M1Z38JPEEeuYKO9T4ANtXw" finish="_T56cgJPEEeuYKO9T4ANtXw" start="_T5Xp8JPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T56cgJPEEeuYKO9T4ANtXw" name="Message16SendEvent" covered="_M1Z38JPEEeuYKO9T4ANtXw" message="_T55OYJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T57DkJPEEeuYKO9T4ANtXw" name="Message16ReceiveEvent" covered="_KBDhAJPEEeuYKO9T4ANtXw" message="_T55OYJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RBlkgJPEEeuYKO9T4ANtXw" name="Message9SendEvent" covered="_KBDhAJPEEeuYKO9T4ANtXw" message="_RBk9cJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RBmLkJPEEeuYKO9T4ANtXw" name="Message9ReceiveEvent" covered="_HX-l8JPEEeuYKO9T4ANtXw" message="_RBk9cJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bkgwsJPEEeuYKO9T4ANtXw" name="Message18SendEvent" covered="_HX-l8JPEEeuYKO9T4ANtXw" message="_bkgJoJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bkhXwJPEEeuYKO9T4ANtXw" name="Message18ReceiveEvent" covered="_KBDhAJPEEeuYKO9T4ANtXw" message="_bkgJoJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_blDjQJPEEeuYKO9T4ANtXw" name="BehaviorExecutionSpecification21" covered="_KBDhAJPEEeuYKO9T4ANtXw" finish="_blJC0JPEEeuYKO9T4ANtXw" start="_bkhXwJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_blJC0JPEEeuYKO9T4ANtXw" name="Message23SendEvent" covered="_KBDhAJPEEeuYKO9T4ANtXw" message="_blIbwJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_blJp4JPEEeuYKO9T4ANtXw" name="Message23ReceiveEvent" covered="_HX-l8JPEEeuYKO9T4ANtXw" message="_blIbwJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gGqGMJPEEeuYKO9T4ANtXw" name="Message25SendEvent" covered="_HX-l8JPEEeuYKO9T4ANtXw" message="_gGo4EJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gGqtQJPEEeuYKO9T4ANtXw" name="Message25ReceiveEvent" covered="_KBDhAJPEEeuYKO9T4ANtXw" message="_gGo4EJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_j5mzYJPEEeuYKO9T4ANtXw" name="Message28SendEvent" covered="_KBDhAJPEEeuYKO9T4ANtXw" message="_j5llQJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_j5nacJPEEeuYKO9T4ANtXw" name="Message28ReceiveEvent" covered="_M1Z38JPEEeuYKO9T4ANtXw" message="_j5llQJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_tUjq4JPEEeuYKO9T4ANtXw" name="ActionExecutionSpecification31" covered="_M1Z38JPEEeuYKO9T4ANtXw" finish="_tUlgEJPEEeuYKO9T4ANtXw" start="_j5nacJPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_tUlgEJPEEeuYKO9T4ANtXw" name="ActionExecutionSpecification31Finish" covered="_M1Z38JPEEeuYKO9T4ANtXw" execution="_tUjq4JPEEeuYKO9T4ANtXw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_p4iP8JPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_RBJfoJPEEeuYKO9T4ANtXw" name="Choisir un medecin" receiveEvent="_RBKtwJPEEeuYKO9T4ANtXw" sendEvent="_RBKGsJPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_RBk9cJPEEeuYKO9T4ANtXw" name="proposer calendrier" messageSort="reply" receiveEvent="_RBmLkJPEEeuYKO9T4ANtXw" sendEvent="_RBlkgJPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_T5Wb0JPEEeuYKO9T4ANtXw" name="Get calendrier" receiveEvent="_T5Xp8JPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_T55OYJPEEeuYKO9T4ANtXw" name="Reponse" messageSort="reply" receiveEvent="_T57DkJPEEeuYKO9T4ANtXw" sendEvent="_T56cgJPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_bkgJoJPEEeuYKO9T4ANtXw" name="choisir une date" receiveEvent="_bkhXwJPEEeuYKO9T4ANtXw" sendEvent="_bkgwsJPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_blIbwJPEEeuYKO9T4ANtXw" name="demande confimation" messageSort="reply" receiveEvent="_blJp4JPEEeuYKO9T4ANtXw" sendEvent="_blJC0JPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_gGo4EJPEEeuYKO9T4ANtXw" name="confirmer" messageSort="asynchCall" receiveEvent="_gGqtQJPEEeuYKO9T4ANtXw" sendEvent="_gGqGMJPEEeuYKO9T4ANtXw"/>
+    <message xmi:type="uml:Message" xmi:id="_j5llQJPEEeuYKO9T4ANtXw" name="bloquer RDV" messageSort="asynchCall" receiveEvent="_j5nacJPEEeuYKO9T4ANtXw" sendEvent="_j5mzYJPEEeuYKO9T4ANtXw"/>
+  </packagedElement>
 </uml:Model>
